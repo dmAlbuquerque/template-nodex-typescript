@@ -1,0 +1,26 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "dev": "ts-node-dev --inspect --ignore-watch node_modules src/app.ts",
+    "start": "node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/{user}/{project_name}/issues"
+  },
+  "homepage": "https://github.com/{user}/{project_name}#readme",
+  "dependencies": {
+    "brazuka-formatter": "^0.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4",
+    "@types/node": "^16.0.0"
+  }
+}
